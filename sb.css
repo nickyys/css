@@ -56,6 +56,8 @@ a:hover,a:active{color:#0090c6}
 .sidebar dt{height:20px;line-height:20px;overflow:hidden;border-left:solid 4px #0090c6}
 .sidebar dt strong{ padding-left:20px;font-weight:100;font-size:20px;color:#111}
 .sidebar dd{padding:10px 24px;color:#999}
+.sidebar dd li{ height:24px;overflow:hidden}
+.sidebar dd p a { margin-right:5px}
 
 #con{margin-bottom:20px}
 #tags{height:38px;background:#fafafa url(../images/bg_2.png) repeat-x left bottom}
@@ -67,7 +69,7 @@ a:hover,a:active{color:#0090c6}
 #tags li.on{background:#0090c6}
 #tags li.on a{color:#1b6d9d;background:#fff}
 #tagContent{background:#fff}
-#tagContent div{display:none;padding:10px 0;height:214px}
+#tagContent div{display:none;padding:10px 0}
 #tagContent div.selectTag{display:block}
 #tagContent .ss a{margin-right:5px}
 
@@ -75,6 +77,8 @@ a:hover,a:active{color:#0090c6}
 .list .hd a{color:#fff}
 .list .hd span{float:right;padding:18px 20px 0 0}
 .list .hd strong{ float:left;padding:0 20px;font-weight:600;font-size:16px;background:#0090c6}
+.list .bd { padding-bottom:10px}
+.list .bd p {padding-top:10px}
 .list .bd ul{padding:10px 0 0 5px}
 .list .bd li{float:left;width:50%;height:28px;overflow:hidden}
 .list .bd li span{color:#999}
@@ -86,12 +90,25 @@ a:hover,a:active{color:#0090c6}
 .quan .bd p{padding:10px 0 10px 20px}
 .quan .bd p a{ margin-right:10px}
 
+.tips { margin:20px 0; border:solid 1px #eee}
+.tips .fl { padding:20px; width:248px;}
+.tips .fr { padding:18px 20px 0 0; width:690px;}
+.tips .fr li { float:left; width:49%;}
+
+.info .hd{ padding:8px 0; height:20px;background:#f9f9f9}
+.info .hd strong{ float:left;padding:0 12px;line-height:20px;font-size:14px;font-weight:600;border-left:solid 4px #0090c6}
+.info .bd { padding-bottom:10px;}
+.info .bd ul{padding:10px 0 0 5px}
+.info .bd li{float:left;width:50%;height:28px;overflow:hidden}
+.info .bd li span{color:#999}
+.info .bd p { padding-top:10px}
+
 .notice{margin:0 auto;padding-top:6px;width:1000px;height:30px;background:#f9f9f8}
 .topbar{padding:5px 0px}
 .bottom{color:#888}
 .bottom a{color:#888}
 
-.db{margin:0 auto;padding-top:8px;width:1000px;text-align:center;border-top:solid 2px #EAEAEA}
+.db{margin:0 auto;padding:8px 0;width:1000px;text-align:center;border-top:solid 2px #EAEAEA}
 .cd{margin:0 auto;padding-top:8px;width:1000px;text-align:center;border-top:solid 2px #0090c6}
 .links{width:980px;margin:0 auto;padding:10px;overflow:hidden}
 .links span.yq{display:block;float:left;margin-right:6px}
