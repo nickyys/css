@@ -55,18 +55,19 @@ a:hover,a:active{color:#0090c6}
 .sidebar dl{margin-bottom:20px;padding-top:16px;background:#f9f9f8}
 .sidebar dt{height:20px;line-height:20px;overflow:hidden;border-left:solid 4px #0090c6}
 .sidebar dt strong{ padding-left:20px;font-weight:100;font-size:20px;color:#111}
-.sidebar dd ul{ padding:10px 16px;}
-.sidebar dd li{ padding-left:8px; height:24px;overflow:hidden; background:url(../images/bg_2.png) no-repeat 0 50%;}
+.sidebar dd ul{ padding:10px 16px}
+.sidebar dd li{ padding-left:8px;height:24px;overflow:hidden;background:url(../images/bg_2.png) no-repeat 0 50%}
+.sidebar dd li span{color:#999}
 .sidebar dd p{padding:10px 24px;color:#999}
 .sidebar dd p a { margin-right:5px}
-.sidebar dl.d2 { padding:0;}
-.sidebar dl.d2 dd { height:36px;}
-.sidebar dl.d2 dd a { display:block; height:36px; line-height:36px; font-size:16px;text-align:center; color:#006699;border-top:solid 1px #fff;}
-.sidebar dl.d2 dd a:hover { border:solid 1px #f5f5f5; background:#fff;}
+.sidebar dl.d2,.sidebar dl.d3 { padding:0}
+.sidebar dl.d2 dd { height:36px}
+.sidebar dl.d2 dd a { display:block;height:36px;line-height:36px;font-size:16px;text-align:center;color:#006699;border-top:solid 1px #fff}
+.sidebar dl.d2 dd a:hover { border:solid 1px #f5f5f5;background:#fff}
 
 #con{margin-bottom:20px}
 #tags{height:38px;background:#fafafa url(../images/bg_2.png) repeat-x left bottom}
-#tags ul{height:38px;overflow:hidden;}
+#tags ul{height:38px;overflow:hidden}
 #tags li{float:right;margin-top:2px;padding:2px}
 #tags li a{float:left;padding:5px 9px}
 #tags li.first{float:left;margin:0;padding:7px 20px;background:#0090c6}
@@ -96,19 +97,20 @@ a:hover,a:active{color:#0090c6}
 .quan .bd p a{ margin-right:10px}
 
 .tips { margin-bottom:20px;border:solid 1px #eee}
-.tips .fl { padding:20px; width:248px;}
-.tips .fr { padding:18px 20px 0 0; width:690px;}
-.tips .fr li { float:left; width:49%;}
+.tips .fl { padding:20px;width:248px}
+.tips .fr { padding:18px 20px 0 0;width:690px}
+.tips .fr li { float:left;width:49%}
 
-.info .hd{ padding:8px 0; height:20px;background:#f9f9f9}
+.info .hd{ padding:8px 0;height:20px;background:#f7f7f7}
+.info .hd a { color:#0090c6}
 .info .hd strong{ float:left;padding:0 12px;line-height:20px;font-size:16px;font-weight:600;border-left:solid 4px #0090c6}
-.info .bd { padding-bottom:10px;}
+.info .bd { padding-bottom:10px}
 .info .bd ul{padding:10px 0 0 5px}
 .info .bd li{float:left;width:50%;height:28px;overflow:hidden}
 .info .bd li span{color:#999}
 .info .bd p { padding-top:10px}
-.info .bd a.btn { margin-right:8px; padding:2px 8px; color:#fff; background:#0090c6;}
-.info .bd a.btn:hover {color:#0090c6; background:#f0f0f0;}
+.info .bd a.btn { margin-right:8px;padding:2px 8px;color:#fff;background:#0090c6}
+.info .bd a.btn:hover {background:#ff9900}
 
 .notice{margin:0 auto;padding-top:6px;width:1000px;height:30px;background:#f9f9f8}
 .topbar{padding:5px 0px}
