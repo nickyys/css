@@ -1,4 +1,4 @@
-﻿/*css reset*/
+/*css reset*/
 body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,pre,form,legend,button,input,textarea,th,td{margin:0;padding:0}
 body,button,input,select,textarea{font-family:"Microsoft YaHei","SimSun","Arial"}
 h1,h2,h3,h4,h5,h6{font-size:100%}
@@ -334,6 +334,6 @@ textarea{resize:none}
 .about .a_r .text .plist li{height:48px}
 .about .a_r .text .hr{margin-top:20px;border-top:solid 1px #ddd}
 
-/**页面通用 by nicky**/
+/**页面通用**/
 #goTop{position:absolute;display:none;width:50px;height:48px;background:#fff url(../images/top3.png) no-repeat 16px 15px;border:solid 1px #f9f9f8;border-radius:6px;box-shadow:0 1px 1px rgba(0, 0, 0, 0.2);cursor:pointer}
 #goTop:hover{height:50px;background-position:16px 16px;box-shadow:0 1px 1px rgba(0, 0, 0, 0.3)}

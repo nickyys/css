@@ -1,0 +1,181 @@
+body,h1,h2,h3,h4,h5,ul,li,p,div,form,button,input,img,span,dl,dt,dd{margin:0px;padding:0px}
+body{font:normal 14px "Arial","Microsoft yahei","SimSun";color:#666666;line-height:24px;text-align:center;background-color:#FFFFFF}
+button {-webkit-appearance:none;vertical-align:middle}
+input{vertical-align:middle}
+img{border:none}
+li{list-style-type:none}
+
+#wrapper{width:1000px;overflow:hidden;margin:0 auto;text-align:left}
+a:link,a:visited{color:#444;text-decoration:none}
+a:hover,a:active{color:#0090c6}
+
+.red, a.red {color:#f00}
+.red a{color:#f00}
+.red a:hover{color:#d00}
+.blue, a.blue {color:#006699}
+.blue a{color:#006699}
+.blue a:hover{color:#0090c6;text-decoration:underline}
+
+.blank{clear:both;height:9px;overflow:hidden}
+.wrap{background:url(../images/bg_head.png) repeat-x}
+.wrap .bg{background:url(http://static.aizhan.com/images/bg_wrap.gif) no-repeat 50% 206px}
+
+.clear{clear:both}
+.clearfix{zoom:1}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.fl {float:left}
+.fr {float:right}
+.ph{font-weight:bold;color:#0090c6}
+.pt{line-height:22px;font-size:12px}
+.ss{line-height:28px;font-size:14px}
+
+/* ---------- Header ---------- */
+.header{margin:0 auto;width:1000px;height:160px}
+.header .top{height:33px;line-height:33px}
+.header .mid .logo{float:left;padding:23px 0 21px 11px}
+.header .mid .sear{padding:26px 0 0 26px}
+.header .mid .sear .int{padding-left:3px;width:300px;height:31px;line-height:31px;vertical-align:middle;border:solid 1px #ddd;border-right:none}
+.header .mid .sear .btn{width:65px;height:33px;vertical-align:middle;cursor:pointer;border:none;background:url(../images/icon.png) no-repeat}
+.header .mid .sear .btn:hover{background-position:-66px 0}
+.header .bot{position:relative;height:43px;background:#2774a2}
+.header .bot .nav ul{padding:2px 0 0 12px}
+.header .bot .nav ul li{float:left;padding:0 22px;line-height:41px;font-size:14px}
+.header .bot .nav ul li a{color:#fff}
+.header .bot .nav ul li a:hover{color:#b1d1f1}
+.header .bot .nav ul li.on{background:#f9f9f8}
+.header .bot .nav ul li.on a{color:#555}
+
+/**当前位置**/
+.path span{float:right;padding-top:48px}
+.path h2{padding:32px 0 12px 24px;font-size:24px;font-style:italic;font-weight:bold;color:#39c;background:url(../images/path.jpg) no-repeat 0 10px}
+
+
+.mainbox{float:left;width:680px}
+.sidebar{ float:right;width:300px}
+.sidebar dl{margin-bottom:20px;padding-top:16px;background:#f9f9f8}
+.sidebar dt{height:20px;line-height:20px;overflow:hidden;border-left:solid 4px #0090c6}
+.sidebar dt strong{ padding-left:20px;font-weight:100;font-size:20px;color:#111}
+.sidebar dd ul{ padding:10px 16px}
+.sidebar dd li{ padding-left:8px;height:24px;overflow:hidden;background:url(../images/bg_2.png) no-repeat 0 50%}
+.sidebar dd li span{color:#999}
+.sidebar dd p{padding:10px 24px;color:#999}
+.sidebar dd p a { margin-right:5px}
+.sidebar dl.d2,.sidebar dl.d3 { padding:0}
+.sidebar dl.d2 dd { height:36px}
+.sidebar dl.d2 dd a { display:block;height:36px;line-height:36px;font-size:16px;text-align:center;color:#006699;border-top:solid 1px #fff}
+.sidebar dl.d2 dd a:hover { border:solid 1px #f5f5f5;background:#fff}
+
+#con{margin-bottom:20px}
+#tags{height:38px;background:#fafafa url(../images/bg_2.png) repeat-x left bottom}
+#tags ul{height:38px;overflow:hidden}
+#tags li{float:right;margin-top:2px;padding:2px}
+#tags li a{float:left;padding:5px 9px}
+#tags li.first{float:left;margin:0;padding:7px 20px;background:#0090c6}
+#tags li.first a{padding:0;font-weight:600;font-size:16px;color:#fff}
+#tags li.on{background:#0090c6}
+#tags li.on a{color:#1b6d9d;background:#fff}
+#tagContent{background:#fff}
+#tagContent div{display:none;padding:10px 0}
+#tagContent div.selectTag{display:block}
+#tagContent .ss a{margin-right:5px}
+
+.list .hd{ height:36px;line-height:36px;border-bottom:solid 2px #0090c6;background:#fafafa}
+.list .hd a{color:#fff}
+.list .hd span{float:right;padding:18px 20px 0 0}
+.list .hd strong{ float:left;padding:0 20px;font-weight:600;font-size:16px;background:#0090c6}
+.list .bd { padding-bottom:10px}
+.list .bd p {padding-top:10px}
+.list .bd ul{padding:10px 0 0 5px}
+.list .bd li{float:left;width:50%;height:28px;overflow:hidden}
+.list .bd li span{color:#999}
+
+.quan{margin-bottom:20px;background:#fafafa}
+.quan .hd{height:40px;line-height:40px;border-bottom:solid 2px #ccc}
+.quan .hd span{float:right;padding:18px 20px 0 0}
+.quan .hd strong{padding-left:20px;font-weight:600;font-size:18px}
+.quan .bd p{padding:10px 0 10px 20px}
+.quan .bd p a{ margin-right:10px}
+
+.tips { margin-bottom:20px;border:solid 1px #eee}
+.tips .fl { padding:20px;width:248px}
+.tips .fr { padding:18px 20px 0 0;width:690px}
+.tips .fr li { float:left;width:49%}
+
+.info .hd{ padding:8px 0;height:20px;background:#f7f7f7}
+.info .hd a { color:#0090c6}
+.info .hd strong{ float:left;padding:0 12px;line-height:20px;font-size:16px;font-weight:600;border-left:solid 4px #0090c6}
+.info .bd { padding-bottom:10px}
+.info .bd ul{padding:10px 0 0 5px}
+.info .bd li{float:left;width:50%;height:28px;overflow:hidden}
+.info .bd li span{color:#999}
+.info .bd p { padding-top:10px}
+.info .bd a.btn { margin-right:8px;padding:2px 8px;color:#fff;background:#0090c6}
+.info .bd a.btn:hover {background:#ff9900}
+
+.notice{margin:0 auto;padding-top:6px;width:1000px;height:30px;background:#f9f9f8}
+.topbar{padding:5px 0px}
+.topbar a{ margin-right:5px}
+.bottom{color:#888}
+.bottom a{color:#888}
+
+.db{margin:0 auto;padding:8px 0;width:1000px;text-align:center;border-top:solid 2px #EAEAEA}
+.cd{margin:0 auto;padding-top:8px;width:1000px;text-align:center;border-top:solid 2px #0090c6}
+.links{width:980px;margin:0 auto;padding:10px;overflow:hidden}
+.links span.yq{display:block;float:left;margin-right:6px}
+
+/* 内页 */
+.main{float:left;width:800px}
+.side{float:right;padding:20px;width:160px;border-top:solid 1px #d3d3d3}
+.main2{float:left;width:635px}
+.side2{float:right;padding:0 0 15px 15px;width:300px}
+/* 文章 */
+.article{padding:20px 15px;border:solid 1px #d3d3d3}
+.artTitle{height:40px;overflow:hidden;border-bottom:#d3d3d3 1px solid}
+.artTitle h1{line-height:36px;text-align:center;font-family:"Microsoft YaHei","SimSun";font-size:20px;color:#333}
+.artInfo{padding:10px;overflow:hidden;line-height:14px;text-align:center;font-size:12px}
+.artInfo span{padding-left:10px}
+
+/* 养老、医疗、公积金首页设置 */
+.related{padding-top:10px}
+.neirong{width:700;margin-top:0px;padding:5px;line-height:24px;font-size:12px}
+.gaikuang{ width:728px;overflow-x:auto}
+.gaikuang table{width:800px;line-height:20px;font-size:12px;border-collapse:collapse;border-spacing:0}
+.gaikuang td{border:solid 1px #e3e3e3}
+
+.gaikuang h4{ margin:0 auto 10px auto;color:#333}
+.gaikuang dd{ padding-right:10px;font-size:12px;padding-left:10px;line-height:22px}
+.gaikuang_1,.gaikuang_2,.gaikuang_3{ width:206px;float:left;overflow:hidden}
+.gaikuang_1 dt{ font-size:14px;font-weight:bold;text-align:center}
+.gaikuang_2 dt{ font-size:14px;font-weight:bold;text-align:center}
+.gaikuang_3 dt{ font-size:14px;font-weight:bold;text-align:center}
+
+.gaikuang_jg{ clear:both;overflow:hidden;margin:0px auto 0 auto}
+.gaikuang_jg dt{ margin:10px auto 10px auto;color:#333}
+.gaikuang_jg dd{ color:#333;line-height:22px}
+.gaikuang_jg dd span{ font-weight:bold;color:#666}
+.gaikuang_jg dd ul{ overflow:hidden}
+.gaikuang_jg dd li{ width:280px;float:left;list-style:inside;height:25px}
+
+/* 纠错其它 */
+.jiucuo{text-align:right;padding:5px 0px;font-size:12px;border-bottom:#d3d3d3 1px solid}
+.other{font-size:12px}
+.other .hd{ padding-top:5px}
+.other .bd{ padding:5px;line-height:20px}
+
+.city{width:700;margin:10px 0;padding:10px 5px 10px 10px;line-height:24px;font-size:12px;background:#f5f5f5}
+.huise{ display:block;padding:15px 0 0 10px;color:#999;font-size:12px}
+
+.box{ border:#d3d3d3 1px solid}
+.box h4{ margin:0;padding:0;line-height:35px;padding-left:10px;border-bottom:#CCC 1px solid}
+.jsq{padding:2px 4px}
+.daohang{padding:10px 0 10px 10px;overflow:hidden;font-size:12px}
+.daohang a{ display:block;width:56px;float:left}
+.wenti{ padding:10px;color:#999}
+.wenti li{ line-height:24px;list-style:inside;font-size:12px}
+
+/* google内容广告 */
+.sousuo{margin-top:12px;margin-bottom:20px}
+.ad{float:right;margin-right:0px;margin-left:15px;display: inline}
+.yiyuan{text-align:center;margin-top:5px;margin-bottom:5px}
+.gg468{ margin-bottom:30px;margin-top:10px}
+.gg300{ margin:10px auto 10px auto}
