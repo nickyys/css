@@ -1,4 +1,4 @@
-/* css reset */
+/*css reset*/
 body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,pre,form,legend,button,input,textarea,th,td{margin:0;padding:0}
 body,button,input,select,textarea{font-family:"Microsoft YaHei","SimSun","Arial"}
 h1,h2,h3,h4,h5,h6{font-size:100%}
@@ -11,7 +11,7 @@ a:hover{text-decoration:none;color:#0090c6}
 a:focus{outline:0}
 em{font-style:normal;color:#999}
 img{vertical-align:middle;border:0;-ms-interpolation-mode:bicubic}
-table{border-collapse:collapse;border-spacing:0}
+table{border-spacing:0}
 input,button,select,textarea{outline:none}
 textarea{resize:none}
 
@@ -141,8 +141,7 @@ textarea{resize:none}
 .path span{float:right;padding-top:36px;font-size:87.5%}
 .path form{float:right;padding:18px 122px 0 0;font-size:87.5%}
 .path form input{vertical-align:middle}
-.path form select{vertical-align:middle;height:34px;*height:auto}
-.path form option{line-height:34px}
+.path form select{vertical-align:middle;padding:0;height:34px;height /*\**/:auto \9;padding /*\**/:5px 0 \9}
 .path .bg{height:73px;background:url(../images/path_bg.gif) no-repeat left bottom}
 .path .bg .r{padding-top:42px;width:720px}
 .path .bg .r a{float:left;padding:7px 16px 8px 16px;height:14px;line-height:14px;overflow:hidden;cursor:pointer}
