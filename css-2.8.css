@@ -1,4 +1,4 @@
-/*css reset*/
+/*css reset 1202*/
 body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,pre,form,legend,button,input,textarea,th,td{margin:0;padding:0}
 body,button,input,select,textarea{font-family:"Microsoft YaHei","SimSun","Arial"}
 h1,h2,h3,h4,h5,h6{font-size:100%}
@@ -61,13 +61,13 @@ textarea{resize:none}
 .header{position:fixed;_position:absolute;left:0;top:0;_top:expression(eval(document.documentElement.scrollTop));z-index:9;width:100%;min-width:1000px;background:url(../images/bg_head.gif) repeat-x}
 .header .top{margin:0 auto;width:1000px;height:43px;font-size:87.5%}
 .header .nav{position:relative;float:left;height:43px;overflow:hidden}
-.header .nav a{position:relative;float:left;margin-top:2px;padding:0 17px;height:41px;line-height:41px;color:#fff}
+.header .nav a{position:relative;float:left;margin-top:2px;padding:0 15px;height:41px;line-height:41px;color:#fff}
 .header .nav a:hover{color:#def}
-.header .nav a.s0{padding-left:21px;border-left:solid 1px #165f8f}
-.header .nav a.s3{background:url(../images/ico_new.png) no-repeat 75px 9px}
-.header .nav a.on{padding-left:20px;color:#333;border:none;background-color:#f9f9f8}
+.header .nav a.s0{border-left:solid 1px #165f8f}
+.header .nav a.s3{background:url(../images/ico_new.png) no-repeat 72px 9px}
+.header .nav a.on{color:#333;border:none;background-color:#f9f9f8}
 .header .nav a.on:hover{color:#333}
-.header .logo{display:inline;float:left;margin:3px 20px 0 18px}
+.header .logo{display:inline;float:left;margin:3px 20px 0 3px}
 .header .word{display:none}
 .header .user{position:relative;width:43px;border-left:solid 1px #165f8f}
 .header .user .t1{width:43px;height:43px;overflow:hidden;background:url(../images/ico_user.png) no-repeat 50% 50%}
@@ -155,7 +155,7 @@ textarea{resize:none}
 .input_d .j_ico a:hover{background:url(../images/ico_xiala_h.png) no-repeat center center}
 .input_d .classlist{position:absolute;z-index:9;left:0;top:24px;*top:34px;width:274px;line-height:30px;padding:1px;border:1px solid #C9E4F4;background:#F5FBFF}
 .input_d .classlist li{display:inline;float:left;width:100%;height:30px}
-.input_d .classlist .lis a,.input_d .classlist .lis span{float:left;padding:0 0 0 8px;width:180px;height:30px;text-align:left;text-decoration:none;color:#666}
+.input_d .classlist .lis a,.input_d .classlist .lis span{float:left;padding:0 0 0 8px;width:180px;height:30px;overflow:hidden;text-align:left;text-decoration:none;color:#666}
 .input_d .classlist .lis a:hover,.input_d .classlist .lis a:active{color:#069;background-color:#edf6fb}
 .input_d .classlist .lis input{float:right;margin:4px;width:32px;height:22px;font-size:87.5%;color:#f60;border:none;background:url(../images/bt_class.png) no-repeat}
 
