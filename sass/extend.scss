@@ -1,0 +1,33 @@
+/**首页**/
+.home .box{border:solid 1px #e5e5e5}
+.home .box .hd{display:none;height:40px}
+.home .box .hd h3{padding-left:24px;line-height:40px;font-size:112.5%;font-weight:100;color:#fff}
+.home .box .bd{padding:70px 19px 19px;text-align:center}
+.home .box .bd .pl{padding:3px 2px 18px 300px}
+.home .box .bd .f12{display:none;padding:2px 0 0 10px;line-height:18px; color:#999}
+.home .box .bd .input{height:38px;line-height:38px}
+.home .box .bd .input .int01{height:38px;line-height:38px}
+.home .box .bd .input .j_ico{top:11px}
+.home .box .bd .input .classlist{top:36px}
+.home .box .bd .input .classlist .lis a{font-size:87.5%}
+.home .box .bd .input .classlist .lis input{font-size:75%}
+
+
+/**关于我们2013.12.05**/
+.about{margin-bottom:18px;border:solid 1px #ddd;background:url(../images/bg_about.png) repeat-y 755px 0}
+.about .a_l{float:right;width:243px;background:url(../images/bg_about.png) no-repeat -243px 0}
+.about .a_l ul{padding:36px 36px 0 0}
+.about .a_l li{padding-left:36px;height:36px;line-height:36px}
+.about .a_l li a{color:#666}
+.about .a_l li a:hover{color:#0090c6}
+.about .a_l li.on{height:37px;color:#333;background:url(../images/bg_about.png) no-repeat -486px 0}
+.about .a_r{float:left;padding:24px;width:700px}
+.about .a_r .text{padding:0 18px}
+.about .a_r .text p{padding-top:20px;line-height:180%}
+.about .a_r .text h2{margin:10px 0;padding-bottom:6px;border-bottom:dotted 1px #ccc}
+.about .a_r .text ul{float:left;margin-bottom:20px;width:100%}
+.about .a_r .text li{float:left;width:20%;line-height:220%;text-align:center}
+.about .a_r .text li a{color:#0269ac}
+.about .a_r .text li a:hover{background:#f9f9f8}
+.about .a_r .text .plist li{height:48px}
+.about .a_r .text .hr{margin-top:20px;border-top:solid 1px #ddd}

@@ -1,0 +1,28 @@
+$fontStack: "Microsoft YaHei","SimSun","Arial";
+$primaryColor: #333;
+$linkColor: #08c;
+
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,button,input,th,td{margin:0;padding:0}
+body,button,input,select,textarea{font-family:$fontStack;}
+body{padding-top:89px;color:$primaryColor;background:#fff;}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+html{overflow-y:scroll}
+ul,ol{list-style:none}
+em{font-style:normal;color:#999}
+img{vertical-align:middle;border:0;-ms-interpolation-mode:bicubic}
+input,button,select,textarea{outline:none}
+table{border-collapse:collapse;border-spacing:0}
+textarea{resize:none}
+
+a {
+  text-decoration:none;
+  color:$primaryColor;
+  &:hover{
+    color:$linkColor;
+  }
+  &:focus{
+    outline:none;
+  }
+}
+
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
