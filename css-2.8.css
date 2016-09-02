@@ -1,4 +1,4 @@
-/*css reset 1202*/
+﻿/*css reset 1202*/
 body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,pre,form,legend,button,input,textarea,th,td{margin:0;padding:0}
 body,button,input,select,textarea{font-family:"Microsoft YaHei","SimSun","Arial"}
 h1,h2,h3,h4,h5,h6{font-size:100%}
@@ -15,7 +15,7 @@ table{border-spacing:0}
 input,button,select,textarea{outline:none}
 textarea{resize:none}
 
-.clearfix{zoom:1}
+.clearfix{zoom:1 }
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
 /*public*/
 .l{float:left}
